@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="441dp"
+        android:layout_height="763dp"
+        app:srcCompat="@drawable/content"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#353A50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_fiat_500_filled_50" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kia Rio"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="424dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="112dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#353A50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_sewing_tape_measure_50" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.5 km"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="424dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#353A50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_deceleration_of_runner_50" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 min - free"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="473dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="#FFB900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minute"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 min - $1"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="563dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="#353A50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hour"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60 min - $50"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="#353A50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1440 min - $300"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="344dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#FFB900"
+        android:text="Book"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
